@@ -1,0 +1,106 @@
+/*Navbar*/
+#header nav{
+  background: #FFFFFF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+}
+
+#header nav:hover{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#header a{
+  color: #e74c3c;
+}
+#header .btn-danger{
+  color: #FFFFFF;
+}
+
+/*Call to Action*/
+#calltoaction .jumbotron{
+  /*padding-bottom: 150px;
+  padding-top: 150px;
+  padding-left: 0px;
+  padding-right: 0px;*/
+  text-align: center;
+  padding: 150px 0;
+  margin-bottom: 0;
+  background-size: cover;
+  background: #63AFC7 url('../images/banner.jpg') no-repeat center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+
+
+}
+
+#calltoaction .jumbotron h1,
+#calltoaction .jumbotron p{
+  color: #FFFFFF;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);;
+}
+
+#calltoaction .jumbotron .btn-feature{
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
+#calltoaction .jumbotron .btn-feature:hover{
+  color: #f1c40f;
+}
+
+/*Feature1*/
+#feature1{
+  background: #FFFFFF;
+  color: #000000;
+  text-align: center;
+}
+
+#feature1 .p{
+  color: #BDC3CF;
+}
+
+/*Feature2*/
+#feature2{
+  background: #FFFFFF;
+  color: 2C3E50;
+  text-align: center;
+}
+
+#feature2 .glyphicon{
+  font-size: 50px;
+}
+
+/*#feature2 hr{
+  max-width: 150px;
+  border: 1px solid #000000;
+}*/
+
+/*Feature4*/
+#feature4, #feature3_5{
+  text-align: center;
+}
+
+#feature1,
+#feature2,
+#feature3,
+#feature5,
+#feature4{
+  padding: 30px 0;
+}
+
+#footer {
+  padding-top: 50px;
+  background: #34495e;
+  text-align: center;
+  color: #ffffff;
+  height: 200px;
+}
